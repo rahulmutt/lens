@@ -1,6 +1,5 @@
 4.16
 ----
-
 * `Semigroup` instances of `Traversed` and `Sequenced` are more constrainted:
   from `Apply` to `Applicative` and `Monad` respectively.
   In the next GHC-8.4, `Semigroup` will be a superclass of `Monoid`,
@@ -20,6 +19,9 @@
 
   Similar instance context change is is made for `Folding` and `Effect`,
   but these changes aren't publicly visible.
+
+* Use `extra-doc-files` to bundle images with the `lens` Haddocks. This change
+  requires that `lens` be built with `Cabal-1.18` or later.
 
 4.15.4
 ----

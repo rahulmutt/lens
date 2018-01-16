@@ -14,7 +14,7 @@
 --
 -- @
 -- import Control.Lens
--- 
+--
 -- data FooBar a
 --   = Foo { _x :: ['Int'], _y :: a }
 --   | Bar { _x :: ['Int'] }
@@ -41,7 +41,7 @@
 --
 -- <http://github.com/ekmett/lens/wiki>
 --
--- <<Hierarchy.png>>
+-- <<images/Hierarchy.png>>
 ----------------------------------------------------------------------------
 module Control.Lens
   ( module Control.Lens.At
